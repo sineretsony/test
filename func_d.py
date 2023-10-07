@@ -8,3 +8,7 @@ def dialogue(text, message, index=None):
     bot.send_chat_action(message.chat.id, 'typing')
     time.sleep(time_sleep)
     bot.send_message(message.chat.id, text)
+
+# Какие-то изменения
+'''Функция для обработки и создания видимости написания сообщеня 
+для бота телеграм'''
